@@ -1,13 +1,10 @@
-import { useEffect, useState } from '@lynx-js/react'
+import { useState } from '@lynx-js/react'
 
 import './App.css'
 
 export function App() {
   const [count, setCount] = useState(0)
 
-  useEffect(() => {
-    console.info('Hello, ReactLynx')
-  }, [])
 
   return (
     <view class='Background'>
