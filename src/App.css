@@ -7,7 +7,6 @@
     --cookie-bottom-distance: 20px;
 }
 
-
 .counter {
     position: absolute;
     bottom: var(--cookie-bottom-distance);
@@ -39,8 +38,6 @@
         font-size: calc(32px * 0.8);
     }
 }
-
-
 
 .Background {
     background-color: #282c34;
