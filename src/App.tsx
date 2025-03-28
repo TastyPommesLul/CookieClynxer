@@ -10,9 +10,9 @@ export function App() {
   }, [])
 
   return (
-    <view className='Background'>
-      <view className='counter' bindtap={() => setCount(count + 1)}>
-        <text className='count' style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>{count}</text>
+    <view class='Background'>
+      <view class='counter' bindtap={() => setCount(count + 1)}>
+        <text class='count' style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>{count}</text>
       </view>
     </view>
   )
