@@ -5,7 +5,6 @@ import './App.css'
 export function App() {
   const [count, setCount] = useState(0)
 
-
   return (
     <view class='Background'>
       <view class='counter' bindtap={() => setCount(count + 1)}>
